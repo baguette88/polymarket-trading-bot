@@ -1,0 +1,46 @@
+# Secrets - NEVER commit these
+.env
+*.env
+!.env.example
+credentials.json
+
+# State files
+state.json
+state.json.tmp
+*.pid
+.heartbeat
+
+# Backups
+backups/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data
+*.csv
+data/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
